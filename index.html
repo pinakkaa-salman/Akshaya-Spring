@@ -629,18 +629,18 @@
                 <div class="col-md-6 col-12 bg-green ">
 
                     <div class="ps-3 banner-details pad-tb1  rou">
-                        <h2 class="heading pb-2">HOSKOTE FASTEST GROWING</h2>
+                        <h2 class="heading pb-2">KANAKAPURA – BENGALURU’S EMERGING HOTSPOT</h2>
                         <!-- <p>Residential cum Industrial Areas</p> -->
                         <p class="text-justify">
-                            Hoskote's rise as a real estate hotspot is a testament to its strategic location and robust infrastructure. Its connectivity to Bengaluru's IT hubs, coupled with planned infrastructure projects like metro extensions and ring roads, makes it a desirable residential and commercial destination.
+                            Kanakapura Town is rapidly emerging as one of Bengaluru’s most promising residential destinations. Known for its scenic surroundings, expanding infrastructure, and seamless connectivity to the city’s prime hubs, Kanakapura offers the perfect balance between peaceful living and urban convenience. With continuous development and upcoming projects, this corridor is transforming into a high-potential investment zone.
                         </p>
                         <br>
-                        <h2 class="sub-heading pb-2">RAPID DEVELOPMENT</h2>
+                        <h2 class="sub-heading pb-2">RAPID INFRASTRUCTURE GROWTH</h2>
                         <ul class="text-justify">
-                            <li class="about-list">200 industrial units in Hoskote Industrial Area.</li>
-                            <li class="about-list">200 acres allocated to an IT company on Malur road.</li>
-                            <li class="about-list">Proposed 3000-acre Industrial Township by KIADB.</li>
-                            <li class="about-list">1500 acres Auto hub in Narsapura near Neo Bengaluru.</li>    
+                            <li class="about-list">Ongoing metro connectivity expansion towards Kanakapura Road.</li>
+                            <li class="about-list">Excellent road network connecting to NICE Road & Outer Ring Road.</li>
+                            <li class="about-list">Close proximity to reputed schools, colleges, and hospitals.</li>
+                            <li class="about-list">Growing commercial and retail developments in the surrounding area.</li>    
                         </ul>
                     </div>
                 </div>
@@ -657,18 +657,20 @@
             <div class=" row   d-flex align-items-center g-0 ">
                 <div class="col-md-6 col-12">
                     <div class="px-3 pad-tb banner-details">
-                        <h2 class="sub-heading pb-2">ECONOMIC HUB</h2>
+                        <h2 class="sub-heading pb-2">INVESTMENT POTENTIAL</h2>
                         <ul class="text-justify">
-                            <li class="about-list">200 industrial units in Hoskote Industrial Area.</li>
-                            <li class="about-list">200 acres allocated to an IT company on Malur road.</li>
-                            <li class="about-list">Proposed 3000-acre Industrial Township by KIADB.</li>
-                            <li class="about-list">1500 acres Auto hub in Narsapura near Neo Bengaluru.</li>    
+                            <li class="about-list">High appreciation potential due to fast urban expansion.</li>
+                            <li class="about-list">Preferred destination for IT professionals working in South Bengaluru.</li>
+                            <li class="about-list">Surrounded by established residential communities.</li>
+                            <li class="about-list">Strong rental demand in nearby localities.</li>    
                         </ul>
                         <br>
-                        <h2 class="sub-heading pb-1">WELL CONNECTED</h2>
+                        <h2 class="sub-heading pb-1">WELL CONNECTED LOCATION</h2>
                         <ul class="text-justify">
-                            <li class="about-list">The 284 km long STRR connects Hoskote to all the important satellite towns across Bengaluru.</li>
-                            <li class="about-list">188 km IRR to connect to the rest of Bengaluru.</li>
+                            <li class="about-list">NICE Road – 25 minutes</li>
+                            <li class="about-list">Banashankari – 50 minutes</li>
+                            <li class="about-list">Kanakapura Chikkatirupati Temple – 1 km</li>
+                            <li class="about-list">Dayanand Sagar University – 5 km</li>
                         </ul>
                     </div>
 
@@ -1458,7 +1460,7 @@
                   $('#brochure-form')[0].reset();
                   
                   setTimeout(function() {
-                        var pdfUrl = "https://divine.aashrithaa.com/images/new/Divine%20Brochure.pdf";
+                        var pdfUrl = "./Akshaya_Springs.pdf";
                         window.open(pdfUrl, "_blank");
                         window.location.href = "thankyou.html";
                     }, 2000);
@@ -1610,7 +1612,7 @@
 function downloadBrochure(pdfPath) {
   const link = document.createElement('a');
   link.href = pdfPath;
-  link.download = 'Vrunda-Brochure.pdf';
+  link.download = 'Akshaya_Springs.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -1647,7 +1649,7 @@ if (brochureForm) {
       // Check if response is successful
       if (response.ok && result.success) {
         // Download brochure automatically
-        downloadBrochure('./Vrunda-Brochure.pdf'); // Change this to your PDF path
+        downloadBrochure('./Akshaya_Springs.pdf'); // Change this to your PDF path
         
         // Reset form fields
         this.reset();
